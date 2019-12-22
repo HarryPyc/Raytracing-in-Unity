@@ -1,42 +1,135 @@
 Base path: 'D:/Program Files/Unity/2019.2.6f1/Editor/Data', plugins path 'D:/Program Files/Unity/2019.2.6f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: preprocess
+  insize=1175 outsize=304 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=16611 outsize=5666 kw=_SUNDISK_SIMPLE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+  api=4 type=0 insize=1308 outsize=650 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=16611 outsize=902 kw=_SUNDISK_SIMPLE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+  api=4 type=1 insize=1308 outsize=366 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: preprocessCompute
-  insize=421 outsize=420 ok=1
-Cmd: preprocessCompute
-  insize=421 outsize=420 ok=1
-Cmd: preprocessCompute
-  insize=1479 outsize=1478 ok=1
-Cmd: preprocessCompute
-  insize=1755 outsize=1754 ok=1
-Cmd: preprocessCompute
-  insize=2839 outsize=2838 ok=1
-Cmd: preprocessCompute
-  insize=2841 outsize=2840 ok=1
+  insize=3581 outsize=3580 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at RayTracingShader.compute(23): redefinition of 'RayHit'
-  api=4 insize=2840 outsize=0 ok=0
+  error: 2 plat 4 at RayTracingShader.compute(112): syntax error: unexpected token ';'
+  api=4 insize=3580 outsize=0 ok=0
+Cmd: preprocess
+  insize=1116 outsize=320 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1234 outsize=650 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1234 outsize=414 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 Cmd: preprocessCompute
-  insize=2842 outsize=2841 ok=1
+  insize=3582 outsize=3581 ok=1
+Cmd: preprocessCompute
+  insize=4200 outsize=4199 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at RayTracingShader.compute(34): undeclared identifier 'origin'
-  api=4 insize=2841 outsize=0 ok=0
+  api=4 insize=4199 outsize=3981 ok=1
 Cmd: preprocessCompute
-  insize=2843 outsize=2842 ok=1
+  insize=4331 outsize=4330 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4330 outsize=5429 ok=1
 Cmd: preprocessCompute
-  insize=2843 outsize=2842 ok=1
+  insize=4331 outsize=4330 ok=1
 Cmd: preprocessCompute
-  insize=2887 outsize=2886 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1596 outsize=1894 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL LIGHTPROBE_SH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1596 outsize=6814 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL LIGHTPROBE_SH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1454 outsize=1690 kw=UNITY_PASS_FORWARDADD DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1454 outsize=3378 kw=UNITY_PASS_FORWARDADD DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+  insize=4789 outsize=4788 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4788 outsize=7286 ok=1
 Cmd: preprocessCompute
-  insize=3566 outsize=3565 ok=1
+  insize=4789 outsize=4788 ok=1
+Cmd: preprocessCompute
+  insize=4778 outsize=4777 ok=1
+Cmd: preprocessCompute
+  insize=4790 outsize=4789 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4789 outsize=7286 ok=1
+Cmd: preprocessCompute
+  insize=5143 outsize=5142 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at RayTracingShader.compute(34): redefinition of 'RayHit'
+  api=4 insize=5142 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=5144 outsize=5143 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RayTracingShader.compute(85): implicit truncation of vector type
+  error: 2 plat 4 at RayTracingShader.compute(95): undeclared identifier 'spere'
+  api=4 insize=5143 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=5145 outsize=5144 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RayTracingShader.compute(85): implicit truncation of vector type
+  error: 2 plat 4 at RayTracingShader.compute(104): undeclared identifier '_Spheres'
+  api=4 insize=5144 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=5182 outsize=5181 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at RayTracingShader.compute(12): syntax error: unexpected token 'Sphere'
+  api=4 insize=5181 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=5186 outsize=5185 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RayTracingShader.compute(88): implicit truncation of vector type
+  error: 2 plat 4 at RayTracingShader.compute(107): undeclared identifier '_Spheres'
+  api=4 insize=5185 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=5187 outsize=5186 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RayTracingShader.compute(88): implicit truncation of vector type
+  api=4 insize=5186 outsize=5642 ok=1
+Cmd: preprocessCompute
+  insize=5185 outsize=5184 ok=1
+Cmd: preprocessCompute
+  insize=5187 outsize=5186 ok=1
+Cmd: preprocessCompute
+  insize=5228 outsize=5227 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RayTracingShader.compute(89): implicit truncation of vector type
+  api=4 insize=5227 outsize=5542 ok=1
+Cmd: preprocessCompute
+  insize=5619 outsize=5616 ok=0
+Cmd: preprocessCompute
+  insize=5448 outsize=5447 ok=1
+Cmd: preprocessCompute
+  insize=5228 outsize=5227 ok=1
+Cmd: preprocessCompute
+  insize=5208 outsize=5207 ok=1
+Cmd: preprocessCompute
+  insize=5209 outsize=5208 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RayTracingShader.compute(89): implicit truncation of vector type
+  api=4 insize=5208 outsize=5542 ok=1
+Cmd: preprocessCompute
+  insize=5216 outsize=5215 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RayTracingShader.compute(89): implicit truncation of vector type
+  api=4 insize=5215 outsize=5582 ok=1
+Cmd: preprocessCompute
+  insize=5448 outsize=5447 ok=1
+Cmd: preprocessCompute
+  insize=5214 outsize=5213 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RayTracingShader.compute(89): implicit truncation of vector type
+  api=4 insize=5213 outsize=5582 ok=1
+Cmd: preprocessCompute
+  insize=5216 outsize=5215 ok=1
+Cmd: preprocessCompute
+  insize=5215 outsize=5214 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5214 outsize=5582 ok=1
+Cmd: preprocessCompute
+  insize=5213 outsize=5212 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5212 outsize=5582 ok=1
+Cmd: preprocessCompute
+  insize=5213 outsize=5212 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RayTracingShader.compute(160): loop only executes for 1 iteration(s), forcing loop to unroll
+  api=4 insize=5212 outsize=4810 ok=1
+Cmd: preprocessCompute
+  insize=5213 outsize=5212 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5212 outsize=5582 ok=1
+Cmd: preprocessCompute
+  insize=5213 outsize=5212 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5212 outsize=5582 ok=1
+Cmd: preprocessCompute
+  insize=5213 outsize=5212 ok=1
