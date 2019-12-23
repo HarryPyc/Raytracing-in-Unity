@@ -1,5 +1,4 @@
 Base path: 'D:/Program Files/Unity/2019.2.6f1/Editor/Data', plugins path 'D:/Program Files/Unity/2019.2.6f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  error: 2 plat 4 at RayTracingShader.compute(99): incorrect number of arguments to numeric-type constructor
-  api=4 insize=4777 outsize=0 ok=0
+  api=4 insize=7105 outsize=7870 ok=1

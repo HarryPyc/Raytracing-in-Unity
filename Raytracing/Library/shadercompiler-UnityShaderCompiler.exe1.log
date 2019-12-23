@@ -1,7 +1,6 @@
 Base path: 'D:/Program Files/Unity/2019.2.6f1/Editor/Data', plugins path 'D:/Program Files/Unity/2019.2.6f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=3581 outsize=3241 ok=1
+  api=4 insize=6545 outsize=6474 ok=1
 Cmd: compileComputeKernel
-  error: 1 plat 4 at RayTracingShader.compute(88): implicit truncation of vector type
-  api=4 insize=5184 outsize=5642 ok=1
+  api=4 insize=7085 outsize=7642 ok=1
